@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Forma³D - Catálogo</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <img src="images/logo/logo_11.jpg" alt="Logo Forma³D" class="logo-img">
+        <span class="logo-text">Forma³D</span>
+      </div>
+      <nav class="nav">
+        <a href="#home" class="nav-link active">Início</a>
+        <a href="#products" class="nav-link">Produtos</a>
+        <a href="#about" class="nav-link">Sobre</a>
+        <a href="#contact" class="nav-link">Contato</a>
+      </nav>
+      <div class="header-actions">
+        <button class="search-btn" onclick="toggleSearch()">
+          <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m21 21-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+          </svg>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title">Impressão 3D de Alta Qualidade</h1>
+          <p class="hero-subtitle">Transforme suas ideias em realidade com nossa tecnologia de ponta</p>
+          <button class="cta-button" onclick="scrollToProducts()">Ver Catálogo</button>
+        </div>
+        <div class="hero-visual">
+          <div class="floating-cube"></div>
+          <div class="floating-sphere"></div>
+          <div class="floating-pyramid"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="search-section" id="search-section">
+      <div class="container">
+        <div class="search-box">
+          <input type="text" id="search-input" placeholder="Buscar produtos...">
+          <button onclick="searchProducts()">Buscar</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="products" id="products">
+      <div class="container">
+        <div class="section-header">
+          <h2>Nossos Produtos</h2>
+          <p>Explore nossa coleção de impressões 3D</p>
+        </div>
+
+        <div class="filters">
+          <button class="filter-btn active" data-category="all">Todos</button>
+          <button class="filter-btn" data-category="miniaturas">Miniaturas</button>
+          <button class="filter-btn" data-category="utilitarios">Utilitários</button>
+          <button class="filter-btn" data-category="decoracao">Decoração</button>
+          <button class="filter-btn" data-category="jogos">Jogos</button>
+        </div>
+
+        <div class="products-grid" id="products-grid">
+          <!-- Products will be loaded here by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-text">
+            <h2>Sobre Nossa Loja</h2>
+            <p>Aqui, sua imaginação ganha forma. Você imagina, e nós fazemos! Utilizamos impressoras 3D modernas e materiais de alta qualidade para transformar suas ideias em realidade com precisão e criatividade.</p>
+            <div class="features">
+              <div class="feature">
+                <div class="feature-icon">🌍</div>
+                <div>
+                  <h3>Personalização</h3>
+                  <p>Modelos exclusivos sob medida para sua necessidade..</p>
+                </div>
+              </div>
+              <div class="feature">
+                <div class="feature-icon">⚡</div>
+                <div>
+                  <h3>Rapidez</h3>
+                  <p>Entrega rápida e eficiente</p>
+                </div>
+              </div>
+              <div class="feature">
+                <div class="feature-icon">💎</div>
+                <div>
+                  <h3>Qualidade</h3>
+                  <p>Materiais premium e acabamento superior</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="about-visual">
+            <div class="printer-animation"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <div class="logo">
+            <div class="logo-icon">3D</div>
+            <span class="logo-text">Forma³d</span>
+          </div>
+          <p>Transformando ideias em realidade através da impressão 3D.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Contato</h3>
+          <p>📧 formaaocubo3d@gmail.com</p>
+          <p>Itapajé, CE</p>
+          <P>@formaa3d</P>
+        </div>
+        <div class="footer-section">
+          <h3>Redes Sociais</h3>
+          <div class="social-links">
+            <a href="#">Instagram</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 3D Forma³D. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Product Modal -->
+  <div class="modal" id="product-modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <div id="modal-body">
+        <!-- Product details will be loaded here -->
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

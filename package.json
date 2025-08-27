@@ -1,0 +1,11 @@
+{
+  "name": "catalogo-impressao-3d",
+  "version": "1.0.0",
+  "description": "Catálogo online para loja de impressão 3D",
+  "scripts": {
+    "dev": "http-server -p 3000 -c-1 --cors -a localhost"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

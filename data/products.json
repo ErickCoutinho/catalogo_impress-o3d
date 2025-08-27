@@ -1,0 +1,139 @@
+[
+  {
+    "id": 1,
+    "title": "Busto Deadpool",
+    "category": "Action figures e Fan art",
+    "description": "Busto do anti-herói mais irreverente da Marvel. Cheio de detalhes no traje e com as icônicas katanas nas costas.",
+    "images": [
+      "images/deadpool/1000X1000-deadpool-bust-v2-01.jpg",
+      "images/deadpool/1000X1000-deadpool-bust-v2-02.jpg"
+    ],
+    "variants": [
+      { "name": "Sem pintura", "price": 35.00, "currency": "BRL" },
+      { "name": "Com pintura", "price": 55.00, "currency": "BRL" }
+    ],
+    "details": "Tamanho Padrão: x cm. PLA. O preço muda conforme o tamanho escolhido.",
+    "tags": ["herois", "fantasia"]
+  },
+    {
+    "id": 2,
+    "title": "Busto Darth Vader",
+    "category": "Action figures e Fan art",
+    "description": "O maior vilão da galáxia. Imponente, cheio de detalhes e com toda a presença sombria que marcou gerações.",
+    "images": [
+      "images/darth_vader/1000X1000-darth-vader-bust-1.jpg",
+      "images/darth_vader/1000X1000-darth-vader-bust-3.jpg",
+      "images/darth_vader/1000X1000-darth-vader-bust-4.jpg"
+    ],
+    "variants": [
+      { "name": "Sem pintura", "price": 35.00, "currency": "BRL" },
+      { "name": "Com pintura", "price": 55.00, "currency": "BRL" }
+    ],
+    "details": "Tamanho Padrão: x cm. PLA. O preço muda conforme o tamanho escolhido.",
+    "tags": ["viloes", "fantasia", "star wars"]
+  },
+    {
+    "id": 3,
+    "title": "Busto Homem-Aranha",
+    "category": "Action figures e Fan art",
+    "description": "O herói mais querido da Marvel. Cheio de detalhes na teia e com a pose clássica que transmite toda a essência do Homem-Aranha.",
+    "images": [
+      "images/miranha/1000X1000-spiderman-2.jpg",
+      "images/miranha/1000X1000-spiderman-3.jpg",
+      "images/miranha/1000X1000-spidermanbust-thumb-colour-1.jpg"
+
+    ],
+    "variants": [
+      { "name": "Sem pintura", "price": 35.00, "currency": "BRL" },
+      { "name": "Com pintura", "price": 55.00, "currency": "BRL" }
+    ],
+    "details": "Tamanho Padrão: x cm. PLA. O preço muda conforme o tamanho escolhido.",
+    "tags": ["herois", "fantasia"]
+  },
+      {
+    "id": 4,
+    "title": "Busto Thanos",
+    "category": "Action figures e Fan art",
+    "description": "Busto de Thanos. Imponente, cheio de detalhes e a representação perfeita do vilão inevitável.",
+    "images": [
+      "images/thanos/resize-thanos-thumb-2-1.jpg",
+      "images/thanos/resize-thanos-2.jpg",
+      "images/thanos/resize-thanos-thumb-color.jpg"
+    ],
+    "variants": [
+      { "name": "Sem pintura", "price": 35.00, "currency": "BRL" },
+      { "name": "Com pintura", "price": 55.00, "currency": "BRL" }
+    ],
+    "details": "Tamanho Padrão: x cm. PLA. O preço muda conforme o tamanho escolhido.",
+    "tags": ["viloes", "fantasia"]
+  },
+      {
+    "id": 5,
+    "title": "Busto Batman - Cruzado de Capa",
+    "category": "Action figures e Fan art",
+    "description": "O Cavaleiro das Trevas em toda sua imponência, com capa e expressão séria que refletem a essência do herói.",
+    "images": [
+      "images/batman/batman-bust-patreon.jpg",
+      "images/batman/1000X1000-batman-005.jpg",
+      "images/batman/1000X1000-batman-004.jpg"
+    ],
+    "variants": [
+      { "name": "Sem pintura", "price": 35.00, "currency": "BRL" },
+      { "name": "Com pintura", "price": 55.00, "currency": "BRL" }
+    ],
+    "details": "Tamanho Padrão: x cm. PLA. O preço muda conforme o tamanho escolhido.",
+    "tags": ["herois", "fantasia"]
+  },
+      {
+    "id": 6,
+    "title": "Busto Batman - Cavaleiro das Trevas",
+    "category": "Action figures e Fan art",
+    "description": "Busto do Cavaleiro das Trevas. Expressão feroz, capa imponente e toda a força sombria do Batman em uma peça marcante.",
+    "images": [
+      "images/batman_2/DSC03760.jpg",
+      "images/batman_2/1000X1000-batman4-print1-1.jpg",
+      "images/batman_2/1000X1000-batman4-005-1.jpg"
+    ],
+    "variants": [
+      { "name": "Sem pintura", "price": 35.00, "currency": "BRL" },
+      { "name": "Com pintura", "price": 55.00, "currency": "BRL" }
+    ],
+    "details": "Tamanho Padrão: x cm. PLA. O preço muda conforme o tamanho escolhido.",
+    "tags": ["herois", "fantasia"]
+  },
+        {
+    "id": 7,
+    "title": "Busto Superman",
+    "category": "Action figures e Fan art",
+    "description": "Busto do Superman. Traços heroicos, presença marcante e o símbolo de esperança que atravessa gerações.",
+    "images": [
+      "images/super_homem/1000X1000-superman-bust-thumb-color-2.jpg",
+      "images/super_homem/1000X1000-superman-bust1-supports2-1.jpg",
+      "images/super_homem/1000X1000-superman-bust1-3-1.jpg",
+      "images/super_homem/1000X1000-superman-bust1-1-1.jpg"
+    ],
+    "variants": [
+      { "name": "Sem pintura", "price": 35.00, "currency": "BRL" },
+      { "name": "Com pintura", "price": 55.00, "currency": "BRL" }
+    ],
+    "details": "Tamanho Padrão: x cm. PLA. O preço muda conforme o tamanho escolhido.",
+    "tags": ["herois", "fantasia"]
+  },
+        {
+    "id": 8,
+    "title": "Busto Flash",
+    "category": "Action figures e Fan art",
+    "description": "O velocista escarlate em pose firme, com detalhes no traje e o emblema clássico do raio no peito.",
+    "images": [
+      "images/flash/1.jpg",
+      "images/flash/2.jpg",
+      "images/flash/3.jpg"
+    ],
+    "variants": [
+      { "name": "Sem pintura", "price": 35.00, "currency": "BRL" },
+      { "name": "Com pintura", "price": 55.00, "currency": "BRL" }
+    ],
+    "details": "Tamanho Padrão: x cm. PLA. O preço muda conforme o tamanho escolhido.",
+    "tags": ["herois", "fantasia"]
+  }
+]
